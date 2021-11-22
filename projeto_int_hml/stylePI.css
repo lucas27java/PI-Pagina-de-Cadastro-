@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{background-color: #FFE3D1;}
+
+.titulo{display: flex;
+    justify-content: center;
+    
+    }
+
+h1{ border: solid;
+    border-radius: 6px;
+    box-shadow: 2px 1px 6px;
+    width: 414px;
+    background-color: #90E3F0;
+    text-align: center;}
+
+form{border: solid;
+    display: flex;
+    justify-content: center;
+    width: 302px;
+    margin: 0px 500px 91px;
+   background-color: darkgrey; }
+
+.inicio{
+    box-shadow: 1px 0px 6px;
+    background-color: #CBB4DB;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 36px 28px 7px;
+    border: solid;
+    width: 74px;
+    text-align: center;
+    font-size: 23px;}
+
+.botao{margin: 9px 1px 5px;
+    height: 49px;
+    width: 94px;
+    border: solid;
+    border-radius: 11px;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 16px;}
+
+td{font-weight: bold;}
+
+a{color: black;
+text-decoration: none;}
+
+.botao:hover{cursor: pointer;
+background-color: blanchedalmond;}
+
+.inicio:hover{cursor: pointer;
+        background-color: blanchedalmond;}
+
+.produtos{box-shadow: 1px 0px 6px;
+    background-color: #CBB4DB;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 36px 28px 7px;
+    border: solid;
+    width: 121px;
+    text-align: center;
+    font-size: 23px;}
+
+.produtos:hover{cursor: pointer;
+background-color: blanchedalmond;}

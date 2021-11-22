@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>Adicionar contato</title>
+</head>
+
+<body>
+
+<style>
+
+body{background-color: #ffe3d1;}
+
+a{font-size: larger;
+text-decoration: none;
+font-weight: bold;
+color: black;
+;}
+
+h1{background: aquamarine;
+    border: solid;
+    width: 317px;
+    text-align: center;
+    border-radius: 9px;}
+
+a:hover{font-size: 20px;
+color:cornflowerblue;
+}
+
+td{font-size: larger;
+font-weight: bold;}
+
+.pai{ display: flex;
+    margin: 34px 1px 1px;
+    
+    justify-content: center;}
+
+form{width: 251px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    height: 119px;
+    background-color: darkgrey;
+}
+
+.adicionar{padding: 8px;
+    border-radius: 5px;
+    background-color: coral;
+    box-shadow: 2px 2px 4px;
+    font-weight: bold;
+    border: solid;}
+
+.adicionar:hover{background-color: white;
+cursor: pointer;
+}
+
+.titulo{display: flex;
+justify-content: center;}
+
+.voltar{display: flex;
+justify-content: center;}
+
+p{padding: 12px;
+    border: solid;
+    background-color: coral;
+    width: 69px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;}
+
+p:hover{background-color: white;
+cursor: pointer;}
+
+</style>
+	
+<a href="index.php">Inicio</a>
+	
+	<div class="titulo"><h1>Cadastro do Produto</h1></div>
+       
+<div class="voltar"><a id="voltar" href="http://localhost/projeto_int_hml/addpihml.html">
+	<p>Voltar</p>
+</a></div>
+
+<div class="pai">
+		<form action="add.php" method="post" name="form1">
+			<table width="25%" border="0">
+				<tr>
+					<td>Codigo:</td>
+					<td><input type="text" name="codigo" placeholder="Digite o Codigo do Produto"></td>
+				</tr>
+				<tr>
+					<td>Nome:</td>
+					<td><input type="text" name="nome" placeholder="Digite seu Nome"></td>
+				</tr>
+				<tr>
+					<td>Valor:</td>
+					<td><input type="text" name="valor" placeholder="Digite o valor"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input class="adicionar" type="submit" name="Submit" value="Adicionar"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
